@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Intervenants — AfriConnect Summit 2026</title>
+  <meta name="description" content="Découvrez les 48 intervenants d'AfriConnect Summit 2026 : experts IA, entrepreneurs et investisseurs du continent africain.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar" aria-label="Navigation principale">
+      <a href="index.html" class="navbar__logo">Afri<span>Connect</span> Summit 2026</a>
+      <ul class="navbar__links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="intervenants.html" aria-current="page">Intervenants</a></li>
+        <li><a href="contact.html">Inscription &amp; Contact</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="theme-toggle" aria-label="Basculer le thème clair / sombre">
+          <i class="bi bi-sun-fill" aria-hidden="true"></i>
+        </button>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--  HERO INTERNE  -->
+    <section class="hero-interne">
+      <h1>Nos intervenants</h1>
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="index.html">Accueil</a> <span aria-hidden="true">/</span> <span aria-current="page">Intervenants</span>
+      </nav>
+    </section>
+
+    <!--  FILTRAGE DYNAMIQUE  -->
+    <section class="container">
+      <div class="filters" role="group" aria-label="Filtrer les intervenants par thématique">
+        <button class="filter-btn" data-filter="tous" aria-pressed="true">Tous</button>
+        <button class="filter-btn" data-filter="ia-tech" aria-pressed="false">IA &amp; Tech</button>
+        <button class="filter-btn" data-filter="business" aria-pressed="false">Business</button>
+        <button class="filter-btn" data-filter="design" aria-pressed="false">Design</button>
+        <button class="filter-btn" data-filter="data" aria-pressed="false">Data</button>
+      </div>
+
+      <!-- GRILLE D'INTERVENANTS 9 fictifs -->
+      <div class="speakers-grid">
+        <article class="speaker-card reveal" data-category="ia-tech">
+          <div class="speaker-card__avatar avatar-1" role="img" aria-label="Portrait d'Aïcha Diallo">AD</div>
+          <div class="speaker-card__body">
+            <h3>Aïcha Diallo</h3>
+            <p class="role">CTO, Wave Mobile Money · IA &amp; Tech</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Sénégal</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="business">
+          <div class="speaker-card__avatar avatar-2" role="img" aria-label="Portrait de Kwame Mensah">KM</div>
+          <div class="speaker-card__body">
+            <h3>Kwame Mensah</h3>
+            <p class="role">Fondateur, AgriData Labs · Business</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Ghana</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="business">
+          <div class="speaker-card__avatar avatar-3" role="img" aria-label="Portrait de Naledi Khumalo">NK</div>
+          <div class="speaker-card__body">
+            <h3>Naledi Khumalo</h3>
+            <p class="role">Partner, Ubuntu Ventures · Business</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Afrique du Sud</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="data">
+          <div class="speaker-card__avatar avatar-4" role="img" aria-label="Portrait de Samuel Otieno">SO</div>
+          <div class="speaker-card__body">
+            <h3>Samuel Otieno</h3>
+            <p class="role">Lead IA, Nairobi AI Hub · Data</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Kenya</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="design">
+          <div class="speaker-card__avatar avatar-5" role="img" aria-label="Portrait de Grace Adeyemi">GA</div>
+          <div class="speaker-card__body">
+            <h3>Grace Adeyemi</h3>
+            <p class="role">Head of Design, Flutterwave · Design</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Nigeria</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="data">
+          <div class="speaker-card__avatar avatar-6" role="img" aria-label="Portrait de Fatou Cissé">FC</div>
+          <div class="speaker-card__body">
+            <h3>Fatou Cissé</h3>
+            <p class="role">Data Engineer, Baobab Cloud · Data</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Côte d'Ivoire</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="ia-tech">
+          <div class="speaker-card__avatar avatar-7" role="img" aria-label="Portrait de Yassine Belkacem">YB</div>
+          <div class="speaker-card__body">
+            <h3>Yassine Belkacem</h3>
+            <p class="role">Ingénieur ML, Atlas Robotics · IA &amp; Tech</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Maroc</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="ia-tech">
+          <div class="speaker-card__avatar avatar-8" role="img" aria-label="Portrait de Chidinma Okafor">CO</div>
+          <div class="speaker-card__body">
+            <h3>Chidinma Okafor</h3>
+            <p class="role">Experte Cybersécurité, ShieldNet · IA &amp; Tech</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Nigeria</p>
+          </div>
+        </article>
+
+        <article class="speaker-card reveal" data-category="design">
+          <div class="speaker-card__avatar avatar-9" role="img" aria-label="Portrait de Miriam Uwase">MU</div>
+          <div class="speaker-card__body">
+            <h3>Miriam Uwase</h3>
+            <p class="role">Product Designer, Irembo · Design</p>
+            <p class="country"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Rwanda</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="index.html" class="navbar__logo">Afri<span style="color:var(--color-primary)">Connect</span></a>
+          <p style="margin-top:0.8rem;">La conférence tech panafricaine qui réunit chaque année les bâtisseurs du continent.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="AfriConnect Summit sur X"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+            <a href="#" aria-label="AfriConnect Summit sur LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <a href="#" aria-label="AfriConnect Summit sur Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Inscription</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <p><i class="bi bi-envelope-fill" aria-hidden="true"></i> hello@africonnectsummit.africa</p>
+          <p style="margin-top:0.5rem;"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Kigali Convention Centre, Rwanda</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span data-year>2026</span> AfriConnect Summit. Tous droits réservés.</p>
+        
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Retour en haut de page">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

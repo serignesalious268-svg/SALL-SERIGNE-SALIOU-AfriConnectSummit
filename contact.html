@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inscription &amp; Contact — AfriConnect Summit 2026</title>
+  <meta name="description" content="Inscrivez-vous à AfriConnect Summit 2026 : formulaire d'inscription, informations pratiques et FAQ.">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar" aria-label="Navigation principale">
+      <a href="index.html" class="navbar__logo">Afri<span>Connect</span> Summit 2026</a>
+      <ul class="navbar__links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="programme.html">Programme</a></li>
+        <li><a href="intervenants.html">Intervenants</a></li>
+        <li><a href="contact.html" aria-current="page">Inscription &amp; Contact</a></li>
+      </ul>
+      <div class="navbar__actions">
+        <button class="theme-toggle" aria-label="Basculer le thème clair / sombre">
+          <i class="bi bi-sun-fill" aria-hidden="true"></i>
+        </button>
+        <button class="hamburger" aria-label="Ouvrir le menu" aria-expanded="false">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!--  HERO INTERNE  -->
+    <section class="hero-interne">
+      <h1>Inscription &amp; Contact</h1>
+      <nav class="breadcrumb" aria-label="Fil d'Ariane">
+        <a href="index.html">Accueil</a> <span aria-hidden="true">/</span> <span aria-current="page">Contact</span>
+      </nav>
+    </section>
+
+    <!-- FORMULAIRE D'INSCRIPTION-->
+    <section class="container">
+      <div class="contact-layout">
+
+        <div class="contact-form reveal--left reveal">
+          <h2 style="margin-bottom:1.5rem;">Formulaire d'inscription</h2>
+
+          <p class="form-success" id="form-success" role="status">
+            <i class="bi bi-check-circle-fill" aria-hidden="true"></i>
+            Votre inscription a bien été envoyée ! Nous revenons vers vous très vite.
+          </p>
+
+          <form id="registration-form" novalidate>
+            <div class="form-group">
+              <label for="fullname">Nom complet *</label>
+              <input type="text" id="fullname" name="fullname" required minlength="3" autocomplete="name">
+              <p class="form-error">Merci d'indiquer votre nom complet (3 caractères minimum).</p>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Adresse e-mail *</label>
+              <input type="email" id="email" name="email" required autocomplete="email">
+              <p class="form-error">Merci de saisir une adresse e-mail valide.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Téléphone *</label>
+              <input type="tel" id="phone" name="phone" required autocomplete="tel">
+              <p class="form-error">Le numéro doit contenir au moins 8 chiffres.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="participation">Type de participation *</label>
+              <select id="participation" name="participation" required>
+                <option value="">— Choisir une option —</option>
+                <option value="visiteur">Visiteur</option>
+                <option value="startup">Startup / Pitch</option>
+                <option value="sponsor">Sponsor</option>
+                <option value="presse">Presse / Média</option>
+                <option value="intervenant">Intervenant</option>
+              </select>
+              <p class="form-error">Merci de sélectionner un type de participation.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="country">Pays africain *</label>
+              <select id="country" name="country" required>
+                <option value="">— Choisir un pays —</option>
+                <option value="senegal">Sénégal</option>
+                <option value="ghana">Ghana</option>
+                <option value="nigeria">Nigeria</option>
+                <option value="kenya">Kenya</option>
+                <option value="afrique-du-sud">Afrique du Sud</option>
+                <option value="cote-ivoire">Côte d'Ivoire</option>
+                <option value="maroc">Maroc</option>
+                <option value="rwanda">Rwanda</option>
+                <option value="egypte">Égypte</option>
+                <option value="cameroun">Cameroun</option>
+                <option value="tunisie">Tunisie</option>
+                <option value="autre">Autre</option>
+              </select>
+              <p class="form-error">Merci de sélectionner votre pays.</p>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message / Motivation *</label>
+              <textarea id="message" name="message" required minlength="20" placeholder="Dites-nous en quelques mots pourquoi vous souhaitez participer..."></textarea>
+              <p class="form-error">20 caractères minimum pour votre message.</p>
+            </div>
+
+            <button type="submit" class="btn btn--primary" style="width:100%; justify-content:center;">
+              <i class="bi bi-send-fill" aria-hidden="true"></i> Envoyer mon inscription
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info reveal--right reveal">
+          <h3>Informations pratiques</h3>
+          <ul>
+            <li><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Kigali Convention Centre, KG 2 Roundabout, Kigali, Rwanda</li>
+            <li><i class="bi bi-calendar3" aria-hidden="true"></i> 18 — 20 novembre 2026</li>
+            <li><i class="bi bi-envelope-fill" aria-hidden="true"></i> hello@africonnectsummit.africa</li>
+            <li><i class="bi bi-telephone-fill" aria-hidden="true"></i> +250 788 000 000</li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- FAQ  -->
+    <section class="container">
+      <div class="section-header reveal">
+        <p class="eyebrow">Questions fréquentes</p>
+        <h2>FAQ</h2>
+      </div>
+
+      <div class="faq">
+        <div class="faq-item">
+          <input type="checkbox" id="faq1">
+          <label for="faq1">L'inscription est-elle payante ?</label>
+          <p class="faq-answer">L'accès visiteur standard est gratuit sur inscription. Les pass startup et sponsor incluent des options supplémentaires détaillées après inscription.</p>
+        </div>
+        <div class="faq-item">
+          <input type="checkbox" id="faq2">
+          <label for="faq2">La conférence est-elle traduite ?</label>
+          <p class="faq-answer">Toutes les sessions plénières sont proposées en français et en anglais avec traduction simultanée disponible sur place.</p>
+        </div>
+        <div class="faq-item">
+          <input type="checkbox" id="faq3">
+          <label for="faq3">Puis-je pitcher ma startup ?</label>
+          <p class="faq-answer">Oui, sélectionnez « Startup / Pitch » dans le formulaire. Un comité évalue les candidatures et confirme la sélection deux semaines avant l'événement.</p>
+        </div>
+        <div class="faq-item">
+          <input type="checkbox" id="faq4">
+          <label for="faq4">Y a-t-il un hébergement partenaire ?</label>
+          <p class="faq-answer">Une liste d'hôtels partenaires avec tarifs préférentiels est envoyée par e-mail après confirmation de votre inscription.</p>
+        </div>
+        <div class="faq-item">
+          <input type="checkbox" id="faq5">
+          <label for="faq5">Comment devenir sponsor ?</label>
+          <p class="faq-answer">Sélectionnez « Sponsor » dans le formulaire ou écrivez directement à hello@africonnectsummit.africa pour recevoir notre dossier de partenariat.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--  CARTE GOOGLE MAPS  -->
+    <section class="container">
+      <div class="map-wrap reveal">
+        <iframe
+          src="https://www.google.com/maps?q=Kigali%20Convention%20Centre&output=embed"
+          title="Localisation du Kigali Convention Centre sur Google Maps"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__col">
+          <a href="index.html" class="navbar__logo">Afri<span style="color:var(--color-primary)">Connect</span></a>
+          <p style="margin-top:0.8rem;">La conférence tech panafricaine qui réunit chaque année les bâtisseurs du continent.</p>
+          <div class="footer__social">
+            <a href="#" aria-label="AfriConnect Summit sur X"><i class="bi bi-twitter-x" aria-hidden="true"></i></a>
+            <a href="#" aria-label="AfriConnect Summit sur LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <a href="#" aria-label="AfriConnect Summit sur Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="programme.html">Programme</a></li>
+            <li><a href="intervenants.html">Intervenants</a></li>
+            <li><a href="contact.html">Inscription</a></li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Contact</h4>
+          <p><i class="bi bi-envelope-fill" aria-hidden="true"></i> hello@africonnectsummit.africa</p>
+          <p style="margin-top:0.5rem;"><i class="bi bi-geo-alt-fill" aria-hidden="true"></i> Kigali Convention Centre, Rwanda</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span data-year>2026</span> AfriConnect Summit. Tous droits réservés.</p>
+        
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" aria-label="Retour en haut de page">
+    <i class="bi bi-arrow-up" aria-hidden="true"></i>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
