@@ -1,34 +1,28 @@
-# AfriConnectSummit
+# AfriConnect Summit 2026
 
-Auteur : SALL Serigne Saliou  
-Classe : L1 IAGE
+**Nom :** SALL Serigne Saliou — Classe : L1 Développement Web
 
-## Description du projet
+## Description
 
-Projet fil rouge — Site vitrine d'une conférence tech panafricaine, moderne et responsive.
+Site vitrine d'une conférence tech panafricaine fictive, avec 4 pages : Accueil, Programme, Intervenants, Contact.
 
-## Technologies utilisées
+## Technologies
 
-- HTML5 – Structure sémantique, hiérarchie logique des titres, accessibilité (alt, aria-label), formulaires complets
+HTML5, CSS3 (Flexbox, Grid, variables CSS), JavaScript vanilla, Google Fonts, Bootstrap Icons.
 
-- CSS3 – Flexbox, CSS Grid, variables CSS (custom properties), animations, transitions, responsive design via media queries, typographie Google Fonts
+## Fonctionnalités JS
 
-- JavaScript vanilla** – Manipulation du DOM, gestion d'événements, IntersectionObserver, localStorage, validation de formulaire, interactivité dynamique
-
-- Git & GitHub– Versioning avec commits réguliers et descriptifs, déploiement via GitHub Pages
-
+Dark mode, navbar dynamique, animations au scroll, compte à rebours, compteurs animés, onglets programme, filtrage intervenants, validation formulaire, bouton retour en haut, année dynamique.
 
 ##  Outils utilisés
 
 VSCODE
 GITHUB
 TUTO YOUTUBE ET RECHERCHE
-## Lien GitHub Pages
+## Site en ligne
 
-[https://ton-user.github.io/SALL-SERIGNESALIOU-AfritConnectSummit/]
+https://serignesalious268-svg.github.io/SALL-SERIGNE-SALIOU-AfriConnectSummit/
 
-##  Ressources consultées
+## Ressources utilisées
 
-Sites d'inspiration pour le design web événementiel 2026 :
-
-- Web Summit – https://websummit.com  
+MDN Web Docs, CSS-Tricks, Google Fonts, Bootstrap Icons, W3C Validator.
